@@ -1,0 +1,76 @@
+ExpressJS - Notes
+
+Code referred from 
+https://github.com/robertbunch/justExpress
+
+HTTP is based on TCP
+
+To run s JS file from cmd
+node filename.js
+
+
+socket.io
+
+Express is a node module
+node can live without express but express can't live without node
+
+Before Express
+	HTTP
+	TCP/UDP
+	NodeJS Web server (without Express)
+		why express
+		
+	
+	Packet
+	
+	Application layer		HTTP/FTP/SSH/SMTP
+	Transport layer			UDP/TCP			TCP/IP layer
+	Network layer			IP
+	Link layer				wifi, eht
+	Physical layer			actual cable
+	
+	
+	Express only handles http requests, and it uses TCP
+	
+	Transport layer creates 65000 ports on the computer 
+	
+	Segment(destination_port, source_port)
+	
+	UDP (User Datagram Protocol)
+		lightweight (8 bytes)
+		connectionless
+		consistency (it will always keep sending the data)
+			send data no matter what
+				does not care about packet loss
+				does not care about network congestion
+				does not care abou packet order
+		un-reliable
+		
+	TCP (Transmission Control Protocol)
+		connection based (uses 3 way handshake)
+		reliable
+		delivery acknowledgement
+		re-transmission of data
+		in-order packets
+		congestion control
+		
+	HTTP (Hyper-Text Transfer Protocol)
+		http://info.cern.ch/
+		efficient
+		http is only connected when required
+		stateless (as http connection is terminated, the state is lost)
+		
+		start line		get /blob http/1.1
+		header		metadata (key-value)
+		body
+		
+		
+		
+nodemon -> hot reloding (just like webpack)
+nodemon vs webpack??
+
+npm install -g nodemon
+nodemon filename.js
+
+		
+
