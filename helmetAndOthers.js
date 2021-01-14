@@ -10,6 +10,8 @@ app.use(express.urlencoded({ extended: false }));
 
 app.post("/ajax", (req, res) => {
   console.log(req.body.name);
+  //   res.send("response text"); // content-type text/html
+  res.json("response text"); // content-type application/json
 });
 
 app.listen("3030", () => {
