@@ -1,0 +1,23 @@
+{
+  "name": "expressjs-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikkaush/ExpressJS-Web-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikkaush/ExpressJS-Web-Server/issues"
+  },
+  "homepage": "https://github.com/nikkaush/ExpressJS-Web-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.3.1"
+  }
+}

@@ -72,5 +72,9 @@ nodemon vs webpack??
 npm install -g nodemon
 nodemon filename.js
 
+
+NodeJS is written in C. It runs javascript. Just like chrome's v8 engine.
+A web-framework for NodeJS
+
 		
 
